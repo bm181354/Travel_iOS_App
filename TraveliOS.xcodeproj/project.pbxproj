@@ -124,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				0C2E008520EFFB9000931D1C /* case */,
-				0C2E005F20EFF55E00931D1C /* TraveliOSTests.swift */,
 				0C2E006120EFF55E00931D1C /* Info.plist */,
 			);
 			path = TraveliOSTests;
@@ -236,6 +235,7 @@
 		0C2E008520EFFB9000931D1C /* case */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E005F20EFF55E00931D1C /* TraveliOSTests.swift */,
 			);
 			path = case;
 			sourceTree = "<group>";
@@ -568,7 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTV3YS2VRE;
-				INFOPLIST_FILE = TraveliOS/Info.plist;
+				INFOPLIST_FILE = TraveliOS/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,7 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTV3YS2VRE;
-				INFOPLIST_FILE = TraveliOS/Info.plist;
+				INFOPLIST_FILE = TraveliOS/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
