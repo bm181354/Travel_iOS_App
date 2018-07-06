@@ -16,6 +16,10 @@
 		0C2E006020EFF55E00931D1C /* TraveliOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E005F20EFF55E00931D1C /* TraveliOSTests.swift */; };
 		0C2E006B20EFF55E00931D1C /* TraveliOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E006A20EFF55E00931D1C /* TraveliOSUITests.swift */; };
 		0C2E007B20EFF86400931D1C /* EnvironmentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E007A20EFF86400931D1C /* EnvironmentConstant.swift */; };
+		0C2E008820F001B400931D1C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008720F001B400931D1C /* UIView.swift */; };
+		0C2E008B20F001F000931D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008A20F001F000931D1C /* MainView.swift */; };
+		0C2E008D20F0022C00931D1C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008C20F0022C00931D1C /* APIManager.swift */; };
+		0C2E008F20F0024F00931D1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008E20F0024F00931D1C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		0C2E006A20EFF55E00931D1C /* TraveliOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraveliOSUITests.swift; sourceTree = "<group>"; };
 		0C2E006C20EFF55E00931D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2E007A20EFF86400931D1C /* EnvironmentConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConstant.swift; sourceTree = "<group>"; };
+		0C2E008720F001B400931D1C /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0C2E008A20F001F000931D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0C2E008C20F0022C00931D1C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0C2E008E20F0024F00931D1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,7 @@
 		0C2E007E20EFF8AF00931D1C /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008920F001DC00931D1C /* MainView */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -184,6 +193,7 @@
 		0C2E008020EFF92700931D1C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008720F001B400931D1C /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +220,7 @@
 		0C2E008320EFFA9800931D1C /* API */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008C20F0022C00931D1C /* APIManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -217,6 +228,7 @@
 		0C2E008420EFFABA00931D1C /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008E20F0024F00931D1C /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -233,6 +245,14 @@
 			children = (
 			);
 			path = case;
+			sourceTree = "<group>";
+		};
+		0C2E008920F001DC00931D1C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E008A20F001F000931D1C /* MainView.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,10 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2E008820F001B400931D1C /* UIView.swift in Sources */,
+				0C2E008B20F001F000931D1C /* MainView.swift in Sources */,
 				0C2E004A20EFF55D00931D1C /* ViewController.swift in Sources */,
 				0C2E004820EFF55D00931D1C /* AppDelegate.swift in Sources */,
+				0C2E008F20F0024F00931D1C /* NetworkManager.swift in Sources */,
 				0C2E005020EFF55D00931D1C /* TraveliOS.xcdatamodeld in Sources */,
 				0C2E007B20EFF86400931D1C /* EnvironmentConstant.swift in Sources */,
+				0C2E008D20F0022C00931D1C /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
