@@ -15,6 +15,7 @@
 		0C2E005520EFF55E00931D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E005320EFF55E00931D1C /* LaunchScreen.storyboard */; };
 		0C2E006020EFF55E00931D1C /* TraveliOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E005F20EFF55E00931D1C /* TraveliOSTests.swift */; };
 		0C2E006B20EFF55E00931D1C /* TraveliOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E006A20EFF55E00931D1C /* TraveliOSUITests.swift */; };
+		0C2E007B20EFF86400931D1C /* EnvironmentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E007A20EFF86400931D1C /* EnvironmentConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0C2E006620EFF55E00931D1C /* TraveliOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraveliOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2E006A20EFF55E00931D1C /* TraveliOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraveliOSUITests.swift; sourceTree = "<group>"; };
 		0C2E006C20EFF55E00931D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2E007A20EFF86400931D1C /* EnvironmentConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,13 @@
 		0C2E004620EFF55D00931D1C /* TraveliOS */ = {
 			isa = PBXGroup;
 			children = (
-				0C2E004720EFF55D00931D1C /* AppDelegate.swift */,
-				0C2E004920EFF55D00931D1C /* ViewController.swift */,
-				0C2E004B20EFF55D00931D1C /* Main.storyboard */,
-				0C2E005120EFF55E00931D1C /* Assets.xcassets */,
-				0C2E005320EFF55E00931D1C /* LaunchScreen.storyboard */,
-				0C2E005620EFF55E00931D1C /* Info.plist */,
-				0C2E004E20EFF55D00931D1C /* TraveliOS.xcdatamodeld */,
+				0C2E007820EFF80000931D1C /* Model */,
+				0C2E007D20EFF89E00931D1C /* View */,
+				0C2E007E20EFF8AF00931D1C /* ModelView */,
+				0C2E007C20EFF87400931D1C /* Services */,
+				0C2E008020EFF92700931D1C /* Extensions */,
+				0C2E008120EFF93C00931D1C /* Helpers */,
+				0C2E007F20EFF8D300931D1C /* Resources */,
 			);
 			path = TraveliOS;
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 		0C2E005E20EFF55E00931D1C /* TraveliOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008520EFFB9000931D1C /* case */,
 				0C2E005F20EFF55E00931D1C /* TraveliOSTests.swift */,
 				0C2E006120EFF55E00931D1C /* Info.plist */,
 			);
@@ -122,10 +125,114 @@
 		0C2E006920EFF55E00931D1C /* TraveliOSUITests */ = {
 			isa = PBXGroup;
 			children = (
+				0C2E008620EFFB9900931D1C /* case */,
 				0C2E006A20EFF55E00931D1C /* TraveliOSUITests.swift */,
 				0C2E006C20EFF55E00931D1C /* Info.plist */,
 			);
 			path = TraveliOSUITests;
+			sourceTree = "<group>";
+		};
+		0C2E007820EFF80000931D1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E007920EFF80F00931D1C /* Entity */,
+				0C2E007A20EFF86400931D1C /* EnvironmentConstant.swift */,
+				0C2E004E20EFF55D00931D1C /* TraveliOS.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C2E007920EFF80F00931D1C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0C2E007C20EFF87400931D1C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E008420EFFABA00931D1C /* NetworkManager */,
+				0C2E008320EFFA9800931D1C /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0C2E007D20EFF89E00931D1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E008220EFFA0C00931D1C /* MainScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C2E007E20EFF8AF00931D1C /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		0C2E007F20EFF8D300931D1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E005120EFF55E00931D1C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C2E008020EFF92700931D1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0C2E008120EFF93C00931D1C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E005620EFF55E00931D1C /* Info.plist */,
+				0C2E004720EFF55D00931D1C /* AppDelegate.swift */,
+				0C2E005320EFF55E00931D1C /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0C2E008220EFFA0C00931D1C /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E004B20EFF55D00931D1C /* Main.storyboard */,
+				0C2E004920EFF55D00931D1C /* ViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		0C2E008320EFFA9800931D1C /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0C2E008420EFFABA00931D1C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		0C2E008520EFFB9000931D1C /* case */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = case;
+			sourceTree = "<group>";
+		};
+		0C2E008620EFFB9900931D1C /* case */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = case;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +369,7 @@
 				0C2E004A20EFF55D00931D1C /* ViewController.swift in Sources */,
 				0C2E004820EFF55D00931D1C /* AppDelegate.swift in Sources */,
 				0C2E005020EFF55D00931D1C /* TraveliOS.xcdatamodeld in Sources */,
+				0C2E007B20EFF86400931D1C /* EnvironmentConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
