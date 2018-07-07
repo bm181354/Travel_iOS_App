@@ -1,0 +1,6 @@
+framework module Pods_TraveliOS {
+  umbrella header "Pods-TraveliOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

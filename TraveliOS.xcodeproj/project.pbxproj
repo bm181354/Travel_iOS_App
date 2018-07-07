@@ -20,6 +20,9 @@
 		0C2E008B20F001F000931D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008A20F001F000931D1C /* MainView.swift */; };
 		0C2E008D20F0022C00931D1C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008C20F0022C00931D1C /* APIManager.swift */; };
 		0C2E008F20F0024F00931D1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008E20F0024F00931D1C /* NetworkManager.swift */; };
+		AB49E35A2D87291DE690E5F5 /* Pods_TraveliOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AE73FBEB7F0C64F47BE2ED /* Pods_TraveliOSUITests.framework */; };
+		D4779D566F53C32117AB796A /* Pods_TraveliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF6434BBB54681A55C4D035 /* Pods_TraveliOS.framework */; };
+		DEC82F42900489BB1EE8B699 /* Pods_TraveliOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79077CE489FAD604AE5B84F2 /* Pods_TraveliOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09AE73FBEB7F0C64F47BE2ED /* Pods_TraveliOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraveliOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2E004420EFF55D00931D1C /* TraveliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraveliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2E004720EFF55D00931D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C2E004920EFF55D00931D1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 		0C2E008A20F001F000931D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0C2E008C20F0022C00931D1C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		0C2E008E20F0024F00931D1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1610B28211E16D65886AB1DF /* Pods-TraveliOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1C1DC371E5887131649B36F4 /* Pods-TraveliOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS.release.xcconfig"; sourceTree = "<group>"; };
+		29E9BECC07F96D19A8C6E96B /* Pods-TraveliOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6BDCDB7FD0F1D9FE5961B94A /* Pods-TraveliOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOSTests/Pods-TraveliOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79077CE489FAD604AE5B84F2 /* Pods_TraveliOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraveliOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E0F728881701EA75C18259 /* Pods-TraveliOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOSTests/Pods-TraveliOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF6434BBB54681A55C4D035 /* Pods_TraveliOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraveliOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BC2BABA3144F82E37E2B7C /* Pods-TraveliOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4779D566F53C32117AB796A /* Pods_TraveliOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC82F42900489BB1EE8B699 /* Pods_TraveliOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB49E35A2D87291DE690E5F5 /* Pods_TraveliOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,8 @@
 				0C2E005E20EFF55E00931D1C /* TraveliOSTests */,
 				0C2E006920EFF55E00931D1C /* TraveliOSUITests */,
 				0C2E004520EFF55D00931D1C /* Products */,
+				92177C723D9D7A915FA04D9C /* Pods */,
+				4C8CD4AC15D65A7ACEF7215A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +272,29 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		4C8CD4AC15D65A7ACEF7215A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6434BBB54681A55C4D035 /* Pods_TraveliOS.framework */,
+				79077CE489FAD604AE5B84F2 /* Pods_TraveliOSTests.framework */,
+				09AE73FBEB7F0C64F47BE2ED /* Pods_TraveliOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92177C723D9D7A915FA04D9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1610B28211E16D65886AB1DF /* Pods-TraveliOS.debug.xcconfig */,
+				1C1DC371E5887131649B36F4 /* Pods-TraveliOS.release.xcconfig */,
+				6BDCDB7FD0F1D9FE5961B94A /* Pods-TraveliOSTests.debug.xcconfig */,
+				B5E0F728881701EA75C18259 /* Pods-TraveliOSTests.release.xcconfig */,
+				E7BC2BABA3144F82E37E2B7C /* Pods-TraveliOSUITests.debug.xcconfig */,
+				29E9BECC07F96D19A8C6E96B /* Pods-TraveliOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C2E006F20EFF55E00931D1C /* Build configuration list for PBXNativeTarget "TraveliOS" */;
 			buildPhases = (
+				F644410098BC82587DDDF490 /* [CP] Check Pods Manifest.lock */,
 				0C2E004020EFF55D00931D1C /* Sources */,
 				0C2E004120EFF55D00931D1C /* Frameworks */,
 				0C2E004220EFF55D00931D1C /* Resources */,
+				673C0268588EBE883D4AAF29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C2E007220EFF55E00931D1C /* Build configuration list for PBXNativeTarget "TraveliOSTests" */;
 			buildPhases = (
+				7397FAB5727F069EE8A37CC9 /* [CP] Check Pods Manifest.lock */,
 				0C2E005720EFF55E00931D1C /* Sources */,
 				0C2E005820EFF55E00931D1C /* Frameworks */,
 				0C2E005920EFF55E00931D1C /* Resources */,
+				9DD0373F0682CE4DD7F128D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C2E007520EFF55E00931D1C /* Build configuration list for PBXNativeTarget "TraveliOSUITests" */;
 			buildPhases = (
+				E46D46A64D30A83F6DAC97F3 /* [CP] Check Pods Manifest.lock */,
 				0C2E006220EFF55E00931D1C /* Sources */,
 				0C2E006320EFF55E00931D1C /* Frameworks */,
 				0C2E006420EFF55E00931D1C /* Resources */,
+				F34A793B99FCD96EAD7099A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,6 +426,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		673C0268588EBE883D4AAF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7397FAB5727F069EE8A37CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraveliOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD0373F0682CE4DD7F128D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSTests/Pods-TraveliOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSTests/Pods-TraveliOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46D46A64D30A83F6DAC97F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraveliOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34A793B99FCD96EAD7099A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F644410098BC82587DDDF490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraveliOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C2E004020EFF55D00931D1C /* Sources */ = {
@@ -564,6 +733,7 @@
 		};
 		0C2E007020EFF55E00931D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1610B28211E16D65886AB1DF /* Pods-TraveliOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +752,7 @@
 		};
 		0C2E007120EFF55E00931D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1DC371E5887131649B36F4 /* Pods-TraveliOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,6 +771,7 @@
 		};
 		0C2E007320EFF55E00931D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDCDB7FD0F1D9FE5961B94A /* Pods-TraveliOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +793,7 @@
 		};
 		0C2E007420EFF55E00931D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E0F728881701EA75C18259 /* Pods-TraveliOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -642,6 +815,7 @@
 		};
 		0C2E007620EFF55E00931D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BC2BABA3144F82E37E2B7C /* Pods-TraveliOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -662,6 +836,7 @@
 		};
 		0C2E007720EFF55E00931D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E9BECC07F96D19A8C6E96B /* Pods-TraveliOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
