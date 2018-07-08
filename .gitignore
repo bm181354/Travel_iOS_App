@@ -27,3 +27,4 @@ DerivedData/
 !default.perspectivev3
 TraveliOS/Model/EnvironmentConstant.swift
 TraveliOS/GoogleService-Info.plist
+TraveliOS.xcworkspace/*
