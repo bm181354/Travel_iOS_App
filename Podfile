@@ -9,6 +9,8 @@ target 'TraveliOS' do
     pod 'Firebase'
     pod 'Firebase/Auth'
     pod 'Firebase/Storage'
+    pod 'Firebase/Core'
+
 
   target 'TraveliOSTests' do
     inherit! :search_paths
