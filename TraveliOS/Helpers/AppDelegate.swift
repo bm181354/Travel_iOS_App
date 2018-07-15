@@ -11,6 +11,7 @@ import CoreData
 import Firebase
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,8 +19,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs
         FirebaseApp.configure()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if Auth.auth().currentUser != nil {
+            
+            let sb = UIStoryboard(name: "Home", bundle: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "HomeId")
+            window?.rootViewController = vc
+        }
+        else {
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            var initialVC = sb.instantiateViewController(withIdentifier: "onBoardId")
+            window?.rootViewController = initialVC
+        }
+
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -59,17 +77,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let container = NSPersistentContainer(name: "TraveliOS")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                 
-                /*
-                 Typical reasons for an error here include:
-                 * The parent directory does not exist, cannot be created, or disallows writing.
-                 * The persistent store is not accessible, due to permissions or data protection when the device is locked.
-                 * The device is out of space.
-                 * The store could not be migrated to the current model version.
-                 Check the error message to determine what the actual problem was.
-                 */
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
