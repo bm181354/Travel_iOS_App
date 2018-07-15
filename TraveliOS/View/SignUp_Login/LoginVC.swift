@@ -35,8 +35,9 @@ class LoginVC:UIViewController{
             print(result?.user.email)
             
             let sb = UIStoryboard(name: "Home", bundle: nil)
-            let vc = sb.instantiateViewController(withIdentifier: "HomeId")
+            let vc = sb.instantiateViewController(withIdentifier: "tabId")
             self.present(vc, animated: true, completion: nil)
+            
             
         }
         

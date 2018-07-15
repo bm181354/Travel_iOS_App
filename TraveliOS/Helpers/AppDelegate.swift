@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if Auth.auth().currentUser != nil {
             
             let sb = UIStoryboard(name: "Home", bundle: nil)
-            let vc = sb.instantiateViewController(withIdentifier: "HomeId")
+            let vc = sb.instantiateViewController(withIdentifier: "tabId")
             window?.rootViewController = vc
         }
         else {
