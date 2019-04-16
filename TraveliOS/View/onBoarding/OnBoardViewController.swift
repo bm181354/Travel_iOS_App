@@ -8,19 +8,17 @@
 
 import UIKit
 import Firebase
-import paper_onboarding
+//import paper_onboarding
 
 
 // MARK: Does onboarding or else go to login
 class OnBoardViewController: UIViewController {
 
     @IBOutlet weak var btnGetStarted: UIButton!
-    @IBOutlet weak var onBoardingView: PaperOnboarding!
+    @IBOutlet weak var onBoardingView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        onBoardingView.dataSource = self
-        onBoardingView.delegate = self
         
     }
 
@@ -37,74 +35,6 @@ class OnBoardViewController: UIViewController {
 
 //(informationImage: UIImage, title: String, description: String, pageIcon: UIImage, color: UIColor, titleColor: UIColor, descriptionColor: UIColor, titleFont: UIFont, descriptionFont: UIFont)
 
-extension OnBoardViewController:PaperOnboardingDataSource,PaperOnboardingDelegate{
-    
-    func onboardingItemsCount() -> Int {
-        return 3
-    }
-    
-    func onboardingItem(at index: Int) -> OnboardingItemInfo {
-        
-        return[OnboardingItemInfo(informationImage: UIImage(named: "robot")!,
-                                  title: "title",
-                                  description: "description",
-                                  pageIcon: UIImage(named: "robot")!,
-                                  color: UIColor.yellow,
-                                  titleColor: UIColor.white,
-                                  descriptionColor: UIColor.white,
-                                  titleFont: UIFont(name: "Helvetica", size: 24)!,
-                                  descriptionFont: UIFont(name: "Helvetica", size: 20)!),
-               
-               OnboardingItemInfo(informationImage: UIImage(named: "robot")!,
-                                  title: "title",
-                                  description: "description",
-                                  pageIcon: UIImage(named: "robot")!,
-                                  color: UIColor.purple,
-                                  titleColor: UIColor.white,
-                                  descriptionColor: UIColor.white,
-                                  titleFont: UIFont(name: "Helvetica", size: 24)!,
-                                  descriptionFont: UIFont(name: "Helvetica", size: 20)!),
-               
-               OnboardingItemInfo(informationImage: UIImage(named: "robot")!,
-                                  title: "title",
-                                  description: "description",
-                                  pageIcon: UIImage(named: "robot")!,
-                                  color: UIColor.yellow,
-                                  titleColor: UIColor.white,
-                                  descriptionColor: UIColor.white,
-                                  titleFont: UIFont(name: "Helvetica", size: 24)!,
-                                  descriptionFont: UIFont(name: "Helvetica", size: 20)!)][index]
-    }
-    
-    
-    func onboardingConfigurationItem(_ item: OnboardingContentViewItem, index: Int){
-        
-    }
- 
-    func onboardingWillTransitonToIndex(_ index: Int){
-        print("\(index)")
-        if index == 1 {
-            if (self.btnGetStarted.alpha == 1) {
-                   UIView.animate(withDuration: 0.5) {
-                    self.btnGetStarted.alpha = 0
-                }
-            }
-        }
-    }
-    
-    func onboardingDidTransitonToIndex(_ index: Int){
-        print(index)
-        if index == 2 {
-            UIView.animate(withDuration: 0.5) {
-                print("Llol")
-                self.btnGetStarted.alpha = 1
-            }
-        }
-    }
-    
-    
-}
-// Callbacks [Events]
 extension OnBoardViewController{
     
 }

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C2D83CA20FA61CC005DB26D /* EnvironmentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D83C920FA61CC005DB26D /* EnvironmentConstant.swift */; };
-		0C2D83CC20FA622B005DB26D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D83CB20FA622B005DB26D /* GoogleService-Info.plist */; };
 		0C2D83CF20FAA162005DB26D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D83CE20FAA162005DB26D /* SignUpVC.swift */; };
 		0C2D83D120FAA178005DB26D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D83D020FAA178005DB26D /* LoginVC.swift */; };
 		0C2D83D420FAA19F005DB26D /* SignOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D83D320FAA19F005DB26D /* SignOutVC.swift */; };
@@ -29,6 +27,7 @@
 		0C2E008B20F001F000931D1C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008A20F001F000931D1C /* MainView.swift */; };
 		0C2E008D20F0022C00931D1C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008C20F0022C00931D1C /* APIManager.swift */; };
 		0C2E008F20F0024F00931D1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E008E20F0024F00931D1C /* NetworkManager.swift */; };
+		13A27CCD226626CF00065C27 /* EnvironmentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A27CCC226626CF00065C27 /* EnvironmentConstant.swift */; };
 		AB49E35A2D87291DE690E5F5 /* Pods_TraveliOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AE73FBEB7F0C64F47BE2ED /* Pods_TraveliOSUITests.framework */; };
 		D4779D566F53C32117AB796A /* Pods_TraveliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF6434BBB54681A55C4D035 /* Pods_TraveliOS.framework */; };
 		DEC82F42900489BB1EE8B699 /* Pods_TraveliOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79077CE489FAD604AE5B84F2 /* Pods_TraveliOSTests.framework */; };
@@ -53,8 +52,6 @@
 
 /* Begin PBXFileReference section */
 		09AE73FBEB7F0C64F47BE2ED /* Pods_TraveliOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraveliOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C2D83C920FA61CC005DB26D /* EnvironmentConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnvironmentConstant.swift; path = ../../../../EnvironmentConstant.swift; sourceTree = "<group>"; };
-		0C2D83CB20FA622B005DB26D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0C2D83CE20FAA162005DB26D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		0C2D83D020FAA178005DB26D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0C2D83D320FAA19F005DB26D /* SignOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutVC.swift; sourceTree = "<group>"; };
@@ -81,6 +78,7 @@
 		0C2E008A20F001F000931D1C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0C2E008C20F0022C00931D1C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		0C2E008E20F0024F00931D1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		13A27CCC226626CF00065C27 /* EnvironmentConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConstant.swift; sourceTree = "<group>"; };
 		1610B28211E16D65886AB1DF /* Pods-TraveliOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS.debug.xcconfig"; sourceTree = "<group>"; };
 		1C1DC371E5887131649B36F4 /* Pods-TraveliOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS.release.xcconfig"; sourceTree = "<group>"; };
 		29E9BECC07F96D19A8C6E96B /* Pods-TraveliOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraveliOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 		0C2E004620EFF55D00931D1C /* TraveliOS */ = {
 			isa = PBXGroup;
 			children = (
-				0C2D83CB20FA622B005DB26D /* GoogleService-Info.plist */,
 				0C2E007820EFF80000931D1C /* Model */,
 				0C2E007D20EFF89E00931D1C /* View */,
 				0C2E007E20EFF8AF00931D1C /* ModelView */,
@@ -200,8 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				0C2E007920EFF80F00931D1C /* Entity */,
-				0C2D83C920FA61CC005DB26D /* EnvironmentConstant.swift */,
 				0C2E004E20EFF55D00931D1C /* TraveliOS.xcdatamodeld */,
+				13A27CCC226626CF00065C27 /* EnvironmentConstant.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,7 +447,6 @@
 			files = (
 				0C2D83D620FAA1B8005DB26D /* SignUp_Login.storyboard in Resources */,
 				0C2E005520EFF55E00931D1C /* LaunchScreen.storyboard in Resources */,
-				0C2D83CC20FA622B005DB26D /* GoogleService-Info.plist in Resources */,
 				0C2D83DD20FB738B005DB26D /* Home.storyboard in Resources */,
 				0C2E005220EFF55E00931D1C /* Assets.xcassets in Resources */,
 				0C2E004D20EFF55D00931D1C /* Main.storyboard in Resources */,
@@ -482,16 +478,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOS/Pods-TraveliOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -524,13 +518,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSTests/Pods-TraveliOSTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,13 +558,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TraveliOSUITests/Pods-TraveliOSUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,10 +598,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2E008820F001B400931D1C /* UIView.swift in Sources */,
+				13A27CCD226626CF00065C27 /* EnvironmentConstant.swift in Sources */,
 				0C2E008B20F001F000931D1C /* MainView.swift in Sources */,
 				0C2D83E120FBB65D005DB26D /* TabVC.swift in Sources */,
 				0C2E004A20EFF55D00931D1C /* OnBoardViewController.swift in Sources */,
-				0C2D83CA20FA61CC005DB26D /* EnvironmentConstant.swift in Sources */,
 				0C2D83DB20FB7362005DB26D /* HomeVC.swift in Sources */,
 				0C2D83D820FACB4E005DB26D /* OnboardView.swift in Sources */,
 				0C2D83D420FAA19F005DB26D /* SignOutVC.swift in Sources */,
