@@ -5,6 +5,5 @@ xcode_scheme: TraveliOS
 xcode_destination: platform=iOS Simulator, OS=12.1,name=iPhone X
 before_install:
 - ls
-- cd bm181354/Travel_iOS_App
 - pod install
 
